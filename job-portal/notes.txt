@@ -19,3 +19,18 @@ npm install express mongoose dotenv cors
 
 To start the express server
 node server.js
+
+
+Open another terminal for frontend (react-project)
+npm create vite@latest frontend
+cd frontend
+npm install
+npm install axios
+
+Setup tailwind for styling
+1. npm install tailwindcss @tailwindcss/vite
+2. open vite.config.js and add tailwind import
+3. open index.css and import tailwindcss
+
+run frontend
+- npm run dev
