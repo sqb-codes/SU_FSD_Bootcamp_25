@@ -1,0 +1,21 @@
+Open terminal
+1. mkdir backend
+2. cd backend
+3. npm init -y
+
+job-portal
+- backend
+  - server.js
+  - package.json
+  - models
+  - controllers
+  - routes
+  - config
+  - services
+  - .env
+
+Install these packages
+npm install express mongoose dotenv cors
+
+To start the express server
+node server.js
